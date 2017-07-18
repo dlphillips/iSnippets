@@ -1,0 +1,8 @@
+C:\Users\Dan Phillips\desktop\uncc_code\iSnippets\bin\Debug\netcoreapp1.1\iSnippets.deps.json
+C:\Users\Dan Phillips\desktop\uncc_code\iSnippets\bin\Debug\netcoreapp1.1\iSnippets.runtimeconfig.json
+C:\Users\Dan Phillips\desktop\uncc_code\iSnippets\bin\Debug\netcoreapp1.1\iSnippets.runtimeconfig.dev.json
+C:\Users\Dan Phillips\desktop\uncc_code\iSnippets\bin\Debug\netcoreapp1.1\iSnippets.dll
+C:\Users\Dan Phillips\desktop\uncc_code\iSnippets\bin\Debug\netcoreapp1.1\iSnippets.pdb
+C:\Users\Dan Phillips\desktop\uncc_code\iSnippets\obj\Debug\netcoreapp1.1\iSnippets.AssemblyInfo.cs
+C:\Users\Dan Phillips\desktop\uncc_code\iSnippets\obj\Debug\netcoreapp1.1\iSnippets.dll
+C:\Users\Dan Phillips\desktop\uncc_code\iSnippets\obj\Debug\netcoreapp1.1\iSnippets.pdb
