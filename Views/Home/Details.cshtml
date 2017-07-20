@@ -1,0 +1,36 @@
+@model iSnippets.Models.Snippet 
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Snippet</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.snipDesc)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.snipDesc)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.snipText)
+        </dt>
+        <dd>
+            <pre>@Html.DisplayFor(model => model.snipText)</pre>
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.snipLang)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.snipLang)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

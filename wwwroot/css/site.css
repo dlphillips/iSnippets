@@ -1,6 +1,8 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: 'Source Code Pro', monospace;
+    background-image: url('/images/maxresdefault.jpg');
 }
 
 /* Wrapping element */
@@ -10,12 +12,21 @@
     padding-right: 15px;
 }
 
-/* Set widths on the form inputs since otherwise they're 100% wide */
+.jumbotron {
+    background-color:lightsteelblue !important; 
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.container {
+    background-color: white;
+}
+
+ /* Set widths on the form inputs since otherwise they're 100% wide */ 
 input,
 select,
 textarea {
-    max-width: 280px;
-}
+    max-width: 600px;
+} 
 
 /* Carousel */
 .carousel-caption p {
@@ -35,3 +46,11 @@ textarea {
         display: none;
     }
 }
+
+a:hover,
+.table-hover tbody tr:hover td
+{
+    background-color: lightsteelblue;
+    color: white;
+    font-weight: bolder;
+}     
